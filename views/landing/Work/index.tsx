@@ -32,7 +32,7 @@ const Work = () => {
           <WorkTextContent>
             The TIDAL protocol is designed around an innovative and powerful
             reward mechanism:
-            <ColorText color="#4299e1"> the TIDAL-Node .</ColorText>
+            <ColorText color="#4299e1"> the TIDAL-Node.</ColorText>
             <br />
             <br />
             TIDAL-nodes are the tools that allow you to
@@ -43,6 +43,7 @@ const Work = () => {
             while reinforcing the sustainable growth of the token.
             <br />
             <br />
+            This means
             <ColorText color="#ed64a6"> double rewards for you </ColorText>
             as the value of your rewards increase with the growth of the value
             of TIDAL.

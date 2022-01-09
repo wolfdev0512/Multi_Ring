@@ -16,12 +16,15 @@ const Accordion = (props: Props) => {
   const [isActive, setIsActive] = useState(false);
   return (
     <>
-      <AccordionButton onClick={() => setIsActive(!isActive)}>
+      <AccordionButton
+        onClick={() => setIsActive(!isActive)}
+        isActive={isActive}
+      >
         <div>{isActive ? " - " : " + "}</div>
         <div>{props.title}</div>
       </AccordionButton>
       <AccordionContent isActive={isActive}>
-        <AccordionText>
+        <AccordionText isActive={isActive}>
           {props.content1}
           <br />
           <br />

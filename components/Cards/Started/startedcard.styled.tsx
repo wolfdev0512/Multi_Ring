@@ -39,7 +39,7 @@ export const Budge = styled.span`
   height: 50px;
 `;
 
-export const StartedCardTitle = styled.div`
+export const StartedCardTitle = styled.div<Props>`
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -67,13 +67,13 @@ export const StartedCardContent = styled.p`
   }
 `;
 
-export const StartedCardColorContent = styled.span`
+export const StartedCardColorContent = styled.span<Props>`
   margin-left: 0.25rem;
   margin-right: 0.25rem;
   color: ${(props) => props.color};
 `;
 
-export const StartedCardLink = styled.a`
+export const StartedCardLink = styled.a<Props>`
   display: flex;
   justify-content: center;
   align-items: center;
