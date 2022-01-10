@@ -9,14 +9,10 @@ export const AccordionButton = styled.button<Props>`
   align-items: center;
   background-color: ${(props) => (props.isActive ? "#132f4c" : "#071a2f")};
   color: #cbd5e0;
-  padding: 18px;
+  padding: 15px;
   width: 100%;
   border: 0;
   border-bottom: ${(props) => (props.isActive ? "solid 1px #265d97" : 0)};
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
   font-size: 16px;
   line-height: 22px;
   cursor: pointer;
@@ -24,6 +20,11 @@ export const AccordionButton = styled.button<Props>`
     color: #90caf9;
     border-bottom: solid 1px #265d97;
     background-color: #132f4c;
+  }
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
 

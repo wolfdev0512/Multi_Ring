@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import {
   AccordionButton,
   AccordionContent,
@@ -20,7 +21,7 @@ const Accordion = (props: Props) => {
         onClick={() => setIsActive(!isActive)}
         isActive={isActive}
       >
-        <div>{isActive ? " - " : " + "}</div>
+        <div>{isActive ? <FaAngleDown /> : <FaAngleRight />}</div>
         <div>{props.title}</div>
       </AccordionButton>
       <AccordionContent isActive={isActive}>

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { contents } from "./contents";
+import { chips } from "./chips";
 import Chip from "../../../components/Chip";
 import {
   ContentDiagram,
@@ -15,8 +17,6 @@ import {
   VisionTitle,
 } from "./vision.styled";
 import diagram from "../../../assets/image/diagram.png";
-import { contents } from "./contents";
-import { chips } from "./chips";
 
 const Vision = () => {
   return (
