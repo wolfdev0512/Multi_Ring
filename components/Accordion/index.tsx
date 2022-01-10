@@ -24,7 +24,7 @@ const Accordion = (props: Props) => {
         <div>{props.title}</div>
       </AccordionButton>
       <AccordionContent isActive={isActive}>
-        <AccordionText isActive={isActive}>
+        <AccordionText>
           {props.content1}
           <br />
           <br />
