@@ -50,3 +50,12 @@ export const AccordionGroup = styled.div`
   max-width: 1048px;
   width: 100%;
 `;
+
+export const AccordionColorText = styled.span`
+  color: #9f7aea;
+`;
+
+export const AccordionLinkText = styled.a`
+  color: #9f7aea;
+  cursor: pointer;
+`;

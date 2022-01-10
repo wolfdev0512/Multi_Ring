@@ -21,11 +21,14 @@ export const AccordionButton = styled.button<Props>`
     border-bottom: solid 1px #265d97;
     background-color: #132f4c;
   }
-  & > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+`;
+
+export const AccordionIcon = styled.div<Props>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  transform: rotate(${(props) => (props.isActive ? "90deg" : 0)});
 `;
 
 export const AccordionContent = styled.div<Props>`

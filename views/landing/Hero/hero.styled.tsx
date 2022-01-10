@@ -26,25 +26,10 @@ export const HeroSubTitle = styled.span`
 
 export const HeroImage = styled.div`
   margin-bottom: 74px;
-  position: relative;
+  & > * {
+    border-radius: 10%;
+  }
 `;
-
-// export const Brand = styled.div`
-//   @keyframes spin {
-//     from {
-//       transform: rotate(0deg);
-//     }
-//     to {
-//       transform: rotate(360deg);
-//     }
-//   }
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   margin-left: -53px;
-//   margin-top: -53px;
-//   animation: spin 16s linear infinite;
-// `;
 
 export const HeroText = styled.div`
   font-weight: bold;

@@ -1,14 +1,14 @@
 import { Header, Footer } from "./app-layout/index";
 
-interface LayoutProps {
+interface Props {
   children: React.ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = (props: Props) => {
   return (
     <div>
       <Header />
-      {children}
+      {props.children}
       <Footer />
     </div>
   );

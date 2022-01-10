@@ -1,6 +1,5 @@
 import Image from "next/image";
 import {
-  // Brand,
   HeroSubTitle,
   HeroTitle,
   HeroCardGroup,
@@ -12,7 +11,6 @@ import {
   Try,
 } from "./hero.styled";
 
-// import brand from "../../../assets/image/logo-color.png";
 import stage from "../../../assets/image/square-cpu-nologo.png";
 import HeroCard from "../../../components/Cards/Hero";
 import { cards } from "./cards";
@@ -26,12 +24,7 @@ const Hero = () => {
         <HeroSubTitle>Yield Processing Node</HeroSubTitle>
       </HeroTitle>
       <HeroImage>
-        <div>
-          <Image src={stage} width={356} height={356} />
-        </div>
-        {/* <Brand>
-          <Image src={brand} width={106} height={106} />
-        </Brand> */}
+        <Image src={stage} width={356} height={356} />
       </HeroImage>
       <HeroText>
         Earn Lifetime Rewards of
