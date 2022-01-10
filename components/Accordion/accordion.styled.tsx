@@ -30,9 +30,9 @@ export const AccordionButton = styled.button<Props>`
 export const AccordionContent = styled.div<Props>`
   padding: 0 18px;
   background-color: #132f4c;
-  transition: all 1s;
+  transition: all 0.5s;
   max-height: ${(props) => (props.isActive ? "500px" : 0)};
-  opacity: ${(props) => (props.isActive ? 1 : 0)};
+  transform: scaleY(${(props) => (props.isActive ? 1 : 0)});
 `;
 
 export const AccordionText = styled.p`
