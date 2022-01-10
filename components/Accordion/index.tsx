@@ -5,6 +5,7 @@ import {
   AccordionContent,
   AccordionIcon,
   AccordionText,
+  AccordionTitle,
 } from "./accordion.styled";
 
 interface Props {
@@ -24,7 +25,7 @@ const Accordion = (props: Props) => {
         <AccordionIcon isActive={isActive}>
           <FaAngleRight />
         </AccordionIcon>
-        <div>{props.title}</div>
+        <AccordionTitle isActive={isActive}>{props.title}</AccordionTitle>
       </AccordionButton>
       <AccordionContent isActive={isActive}>
         <AccordionText>{props.children}</AccordionText>
