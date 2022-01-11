@@ -38,17 +38,17 @@ export const Brand = styled.div`
   font-size: larger;
 `;
 
-export const Spin = styled(Image)`
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  animation: spin 12s linear infinite;
-`;
+// export const Spin = styled(Image)`
+//   @keyframes spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(360deg);
+//     }
+//   }
+//   animation: spin 12s linear infinite;
+// `;
 
 export const BrandName = styled.span`
   font-weight: 600;

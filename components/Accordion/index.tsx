@@ -27,8 +27,8 @@ const Accordion = (props: Props) => {
         </AccordionIcon>
         <AccordionTitle isActive={isActive}>{props.title}</AccordionTitle>
       </AccordionButton>
-      <AccordionContent isActive={isActive}>
-        <AccordionText>{props.children}</AccordionText>
+      <AccordionContent>
+        {isActive ? <AccordionText>{props.children}</AccordionText> : ""}
       </AccordionContent>
     </>
   );

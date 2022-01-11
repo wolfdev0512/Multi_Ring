@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-import brand from "../../../assets/image/logo-color.png";
+import brand from "../../../assets/image/square-cpu-nologo.png";
+import Image from "next/image";
 import {
   Brand,
   BrandCopy,
@@ -10,7 +11,6 @@ import {
   FooterContainer,
   FooterWrapper,
   Links,
-  Spin,
 } from "./footer.styled";
 
 import { links1, links2 } from "./links";
@@ -21,7 +21,7 @@ const Footer = () => {
       <FooterContainer>
         <BrandCopy>
           <Brand>
-            <Spin src={brand} width={48} height={48} />
+            <Image src={brand} width={48} height={48} />
             <BrandName>TIDAL</BrandName>
           </Brand>
           <Copyright>© 2021 Copyright TIDAL.financial</Copyright>

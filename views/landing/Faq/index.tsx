@@ -79,12 +79,12 @@ const Faq = () => {
           <br />
           <br />
           The contract address of the TIDAL token is :<br />
-          0x521ef54063148e5f15f18b9631426175cee23de2
+          NA
           <br />
           <br />
-          You can create your RING-nodes and collect your RING rewards on our
-          web app: app.ring.financial.
-          <Link href="#">
+          You can create your Tidal-nodes and collect your Tidal rewards on our
+          web app: NA Click here to go to the web app.
+          <Link href="/treasury.thor.financial">
             <AccordionLinkText> Click here </AccordionLinkText>
           </Link>
           to go to the web app.

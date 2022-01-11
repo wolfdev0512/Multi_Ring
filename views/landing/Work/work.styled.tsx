@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface Props {
   color: string;
@@ -95,8 +95,8 @@ export const WorkTIDAL = styled.div`
   width: 274px;
 `;
 
-export const TIDALImage = styled(Image)`
-  @keyframes pulse {
+export const TIDALImage = styled.div`
+  /* @keyframes pulse {
     0% {
       opacity: 1;
     }
@@ -107,7 +107,7 @@ export const TIDALImage = styled(Image)`
       opacity: 1;
     }
   }
-  animation: pulse 3s ease-in-out infinite;
+  animation: pulse 3s ease-in-out infinite; */
   @media screen and (max-width: 768px) {
     height: 274px;
   }

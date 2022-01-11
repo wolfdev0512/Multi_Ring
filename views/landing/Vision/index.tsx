@@ -16,7 +16,7 @@ import {
   VisionTextTitle,
   VisionTitle,
 } from "./vision.styled";
-import diagram from "../../../assets/image/diagram.png";
+import diagram from "../../../assets/image/square-cpu-nologo.png";
 
 const Vision = () => {
   return (

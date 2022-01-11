@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "next/image";
+// import Image from "next/image";
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -27,17 +27,17 @@ export const Brand = styled.div`
   gap: 0.5rem;
 `;
 
-export const Spin = styled(Image)`
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  animation: spin 12s linear infinite;
-`;
+// export const Spin = styled(Image)`
+//   @keyframes spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(360deg);
+//     }
+//   }
+//   animation: spin 12s linear infinite;
+// `;
 
 export const BrandName = styled.span`
   font-weight: 600;

@@ -40,12 +40,9 @@ export const AccordionIcon = styled.div<Props>`
   transform: rotate(${(props) => (props.isActive ? "90deg" : 0)});
 `;
 
-export const AccordionContent = styled.div<Props>`
+export const AccordionContent = styled.div`
   padding: 0 18px;
   background-color: #132f4c;
-  transition: all 0.5s;
-  max-height: ${(props) => (props.isActive ? "500px" : 0)};
-  transform: scaleY(${(props) => (props.isActive ? 1 : 0)});
 `;
 
 export const AccordionText = styled.p`

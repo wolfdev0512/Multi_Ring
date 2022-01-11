@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import { Header, Footer } from "./app-layout/index";
 
 interface Props {
@@ -5,11 +7,19 @@ interface Props {
 }
 
 const Layout = (props: Props) => {
+  const router = useRouter();
+  const [flag, setFlag] = useState(true);
+
+  useEffect(() => {
+    if (router.route === "/treasury.thor.financial") setFlag(false);
+    else setFlag(true);
+  }, [router.route]);
+
   return (
     <div>
-      <Header />
+      {flag ? <Header /> : ""}
       {props.children}
-      <Footer />
+      {flag ? <Footer /> : ""}
     </div>
   );
 };

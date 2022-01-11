@@ -56,6 +56,6 @@ export const AccordionColorText = styled.span`
 `;
 
 export const AccordionLinkText = styled.a`
-  color: #9f7aea;
+  color: #ed64a6;
   cursor: pointer;
 `;

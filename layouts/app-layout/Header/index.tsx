@@ -1,12 +1,12 @@
 import Link from "next/link";
-import brand from "../../../assets/image/logo-color.png";
+import Image from "next/image";
+import brand from "../../../assets/image/square-cpu-nologo.png";
 
 import {
   Brand,
   BrandName,
   HeaderContainer,
   Launch,
-  Spin,
   Status,
   Token,
   Tokens,
@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Brand>
-        <Spin src={brand} width={48} height={48} />
+        <Image src={brand} width={48} height={48} />
         <BrandName>TIDAl</BrandName>
       </Brand>
       <Status>

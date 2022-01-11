@@ -18,7 +18,7 @@ import {
 
 import Certik from "../../../assets/image/certik.svg";
 import Certik2 from "../../../assets/image/certik2.svg";
-import TIDAL from "../../../assets/image/ring.png";
+import TIDAL from "../../../assets/image/square-cpu-nologo.png";
 
 const Work = () => {
   return (
@@ -57,7 +57,9 @@ const Work = () => {
           </ComingSoon>
         </WorkTextGroup>
         <WorkTIDAL>
-          <TIDALImage src={TIDAL} />
+          <TIDALImage>
+            <Image src={TIDAL}></Image>
+          </TIDALImage>
           <Link href="#">
             <WhitePaper>READ WHITEPAPER</WhitePaper>
           </Link>
